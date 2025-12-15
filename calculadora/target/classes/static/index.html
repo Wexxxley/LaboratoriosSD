@@ -27,10 +27,10 @@
             const num1 = parseFloat(document.getElementById("num1").value);
             const num2 = parseFloat(document.getElementById("num2").value);
             
-            // Faz a chamada HTTP para o endpoint da API REST em http://localhost:8080/ [cite: 141]
+            // Faz a chamada HTTP para o endpoint da API REST em http://localhost:8080/ 
             fetch(`http://localhost:8080/${operacao}/${num1}/${num2}`) 
-                .then(response => response.text()) // [cite: 142]
-                .then(data => document.getElementById("resultado").innerText = data) // [cite: 143]
+                .then(response => response.text()) 
+                .then(data => document.getElementById("resultado").innerText = data) 
                 .catch(error => console.error("Erro:", error));
         }
     </script>

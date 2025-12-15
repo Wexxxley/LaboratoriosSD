@@ -1,1 +1,3 @@
-com/demo/Main.class
+com/demo/RestApplication.class
+com/demo/HelloResource.class
+com/demo/HelloService.class
